@@ -10,6 +10,7 @@ refreshDb = ->
   # clear database
   # TODO: only for development
   Games.remove({})
+  Highscores.remove({})
   Quizzes.remove({})
   Questions.remove({})
   Sounds.remove({})
