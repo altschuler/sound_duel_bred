@@ -1,6 +1,8 @@
 # src/server/main.coffee
 
 fs = Npm.require 'fs'
+Future = Npm.require 'fibers/future'
+probe = Npm.require 'node-ffprobe'
 
 # methods
 
@@ -30,11 +32,25 @@ refreshDb = ->
 
     for question in quiz.questions
 
-      # find associated segments
-      segments = audioFiles.filter (file) ->
+      # find associated segment
+      segment = audioFiles.filter( (file) ->
         ~file.indexOf(question.soundfilePrefix)
+      ).pop()
 
-      soundId = Sounds.insert segments: segments
+      # get duration of segment
+      fut = new Future()
+      probe "#{CONFIG.ASSETS_DIR}/#{segment}", (err, data) ->
+        if err?
+          console.log err
+        else
+          fut['return'] data.format.duration
+
+      duration = fut.wait()
+
+      # insert sound document
+      soundId = Sounds.insert
+        segment: segment
+        duration: duration
       question.soundId = soundId
 
       # insert question into databse
@@ -47,7 +63,7 @@ refreshDb = ->
     quiz.questionIds = questionIds
     quiz.pointsPerQuestion = CONFIG.POINTS_PER_QUESTION
 
-    Quizzes.insert(quiz)
+    Quizzes.insert quiz
 
 
   # print some info
