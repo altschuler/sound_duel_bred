@@ -4,13 +4,15 @@
 
 Meteor.methods
   submitHighscore: (name, gameId) ->
-    console.log 'submitting highscore'
-
     unless name
-      throw new Meteor.Error "Name empty"
-    unless Games.find( _id: gameId ).count() == 1
-      throw new Meteor.Error "Game not found"
+      throw new Meteor.Error 403, "Name empty"
+
+    game = Games.findOne gameId
+    unless game?
+      throw new Meteor.Error 404, "Game not found"
 
     Highscores.insert
       name: name
       gameId: gameId
+      quizId: game.quizId
+      score: game.score
