@@ -21,6 +21,13 @@ html { min-height: 100%; }
 h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
 }
+h2 {
+  margin-top:50px;
+}
+
+dl dt {
+  text-align:left;
+}
 
 .navbar-default {
 
@@ -40,6 +47,12 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom:5px;
 }
 
+.btn.alternative {
+  text-align:left;
+  padding-left:25px;
+  padding-right:25px;
+}
+
 .lead {
   margin-top:20px;
 }
@@ -54,15 +67,27 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
-.main-block {
-  background-color:#fff;
-  padding:10px 0;
-}
-
 .page-header {
   text-align: center;
   border:none;
   margin:0;
+}
+
+.share {
+  width:48px;
+  height:48px;
+  text-indent: -9999px;
+  display:inline-block;
+
+  &.share-facebook {
+    background: url('/images/share-facebook.png') no-repeat;
+  }
+  &.share-twitter {
+    background: url('/images/share-twitter.png') no-repeat;
+  }
+  &.share-google {
+    background: url('/images/share-google.png') no-repeat;
+  }
 }
 
 #highscore-table {
