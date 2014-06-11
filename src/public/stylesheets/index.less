@@ -1,15 +1,6 @@
 /* src/public/stylesheets/index.less */
 
 @font-face {
-  font-family: "gibsonBold";
-  font-weight: normal;
-  src: url("http://www.dr.dk/assets/fonts/gibson/bold/gibson-bold-webfont.eot?#iefix") format("embedded-opentype"),
-       url("http://www.dr.dk/assets/fonts/gibson/bold/gibson-bold-webfont.woff") format("woff"),
-       url("http://www.dr.dk/assets/fonts/gibson/bold/gibson-bold-webfont.ttf") format("truetype"),
-       url("http://www.dr.dk/assets/fonts/gibson/bold/gibson-bold-webfont.svg") format("svg");
-}
-
-@font-face {
   font-family: "gibsonSemiBold";
   font-weight: normal;
   src: url("http://www.dr.dk/assets/fonts/gibson/semiBold/gibson-semiBold-webfont.eot?#iefix") format("embedded-opentype"),
@@ -26,24 +17,12 @@
 
 html { min-height: 100%; }
 
-body {
-  background-image: url('/images/bg-VM.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat no-repeat;
-  background-position: 50% 0;
-}
-
 
 h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
 }
 
-h1 {
-  font-family: @font-family-sans-serif;
-}
-
 .navbar-default {
-  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.36);
 
   .navbar-nav > .active > a,
   .navbar-nav a:hover,
@@ -52,8 +31,8 @@ h1 {
   }
 }
 
-.btn, .navbar-nav, .navbar-text {
-  font-family:@font-gibson-semibold;
+.btn, .navbar-nav, .navbar-brand {
+  font-family:@font-family-sans-serif;
   text-transform: uppercase;
 }
 .btn-block {
@@ -61,11 +40,11 @@ h1 {
   margin-bottom:5px;
 }
 
+.lead {
+  margin-top:20px;
+}
+
 .container {
-  &.layout {
-    margin-top: 30px;
-    position: relative;
-  }
 
   .header {
     padding-bottom: 10px;
@@ -73,9 +52,6 @@ h1 {
     margin-bottom: 0;
   }
 
-  .row {
-    margin-top: 20px;
-  }
 }
 
 .main-block {
@@ -194,7 +170,5 @@ audio.asset, .assets {
 // }
 
 @media only screen and (min-width: @screen-sm-min) {
-	body {
-		background-image: url('/images/bg-VM-lg.jpg');
-	}
+	
 }
