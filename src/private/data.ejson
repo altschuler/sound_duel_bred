@@ -1,5 +1,40 @@
 [
   {
+    "name": "Hvor gammel blir en grevling?",
+    "startDate": { "$date": 1402005600000 },
+    "endDate":   { "$date": 1402610400000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM_2006_FRANKRIG-SPANIEN",
+          "correctAnswer": "A",
+          "alternatives":
+            [
+              {
+                  "name": "A",
+                  "text": "Vet ikke"
+              },
+              {
+                  "name": "B",
+                  "text": "42"
+              },
+              {
+                  "name": "C",
+                  "text": "Like så gammel som en hund"
+              },
+              {
+                  "name": "D",
+                  "text": "Dør aldri"
+              },
+              {
+                  "name": "E",
+                  "text": "Don't care"
+              }
+            ]
+        }
+      ]
+  },
+  {
     "name": "Hvilken kamp med Frankrig fra VM 2006 er målet fra?",
     "startDate": { "$date": 1402005600000 },
     "endDate"  : { "$date": 1402092000000 },
