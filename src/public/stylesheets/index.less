@@ -57,6 +57,10 @@ h2 {
   margin-top:20px;
 }
 
+.share {
+  margin-bottom:20px;
+}
+
 .container {
 
   .header {
@@ -194,6 +198,15 @@ audio.asset, .assets {
 // 	@import "../custom-small.less";
 // }
 
-@media only screen and (min-width: @screen-sm-min) {
-	
+@media (max-width: @screen-xs-max) {
+  h1,h2 {
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  h1 {
+    font-size:26px;
+  }
+  h2 {
+    font-size:20px;
+  }
 }
