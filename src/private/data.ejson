@@ -1,8 +1,8 @@
 [
   {
     "name": "Hvilken kamp med Frankrig fra VM 2006 er målet fra?",
-    "startDate": { "$date": 1402005600000 },
-    "endDate"  : { "$date": 1402610400000 },
+    "startDate": { "$date": 1434232800000 },
+    "endDate"  : { "$date": 1434319200000 },
     "questions":
       [
         {
@@ -113,8 +113,9 @@
   },
   {
     "name": "Hvilken VM-kamp med Brasilien er scoringen fra?",
-    "startDate": { "$date": 1402092000000 },
-    "endDate"  : { "$date": 1402178400000 },
+    "description": "Dagens quiz handler om værtsnationen Brasilien, der fem gange har vundet VM, og som i aften spiller åbningskamp mod Kroatien.",
+    "startDate": { "$date": 1402437600000 },
+    "endDate"  : { "$date": 1402610400000 },
     "questions":
       [
         {
