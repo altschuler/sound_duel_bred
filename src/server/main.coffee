@@ -2,7 +2,7 @@
 
 fs = Npm.require 'fs'
 Future = Npm.require 'fibers/future'
-probe = Npm.require 'node-ffprobe'
+probe = Meteor.require 'node-ffprobe'
 
 # methods
 
