@@ -13,7 +13,8 @@
     "grunt-contrib-less": "^0.11.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sed": "^0.1.1",
-    "grunt-webdriver": "^0.4.0"
+    "grunt-webdriver": "^0.4.0",
+    "node-ffprobe": "^1.2.2"
   },
   "dependencies": {
     "phantomjs": "^1.9.7-8"
