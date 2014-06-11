@@ -11,11 +11,16 @@ refreshDb = ->
 
   # clear database
   # TODO: only for development
-  Games.remove({})
-  Highscores.remove({})
-  Quizzes.remove({})
-  Questions.remove({})
-  Sounds.remove({})
+  # Games.remove({})
+  # Highscores.remove({})
+  # Quizzes.remove({})
+  # Questions.remove({})
+  # Sounds.remove({})
+
+  console.log "Meteor.settings:"
+  console.log Meteor.settings
+
+  console.log "Num of quizzes: #{Quizzes.find().count()}"
 
   # get audiofiles from /public
   audioFiles = fs.readdirSync(CONFIG.ASSETS_DIR).filter (file) ->
@@ -27,48 +32,46 @@ refreshDb = ->
   # populate database
   for quiz in quizzes
 
-    # Insert questions from quiz as separate question objects in database
-    questionIds = []
+    if Quizzes.find( name: quiz.name ).count() == 0
+      console.log "New quiz: #{quiz.name}"
 
-    for question in quiz.questions
+      # Insert questions from quiz as separate question objects in database
+      questionIds = []
 
-      # find associated segment
-      segment = audioFiles.filter( (file) ->
-        ~file.indexOf(question.soundfilePrefix)
-      ).pop()
+      for question in quiz.questions
 
-      # get duration of segment
-      fut = new Future()
-      probe "#{CONFIG.ASSETS_DIR}/#{segment}", (err, data) ->
-        if err?
-          console.log err
-        else
-          fut['return'] data.format.duration
+        # find associated segment
+        segment = audioFiles.filter( (file) ->
+          ~file.indexOf(question.soundfilePrefix)
+        ).pop()
 
-      duration = fut.wait()
+        # get duration of segment
+        fut = new Future()
+        probe "#{CONFIG.ASSETS_DIR}/#{segment}", (err, data) ->
+          if err?
+            console.log err
+          else
+            fut['return'] data.format.duration
 
-      # insert sound document
-      soundId = Sounds.insert
-        segment: segment
-        duration: duration
-      question.soundId = soundId
+        duration = fut.wait()
 
-      # insert question into databse
-      questionId = Questions.insert question
-      questionIds.push questionId
+        # insert sound document
+        soundId = Sounds.insert
+          segment: segment
+          duration: duration
+        question.soundId = soundId
 
-    # Replace the 'questions' property with the property 'questionIds' that
-    # references the questions ID in the MongoDB
-    delete quiz.questions
-    quiz.questionIds = questionIds
-    quiz.pointsPerQuestion = CONFIG.POINTS_PER_QUESTION
+        # insert question into databse
+        questionId = Questions.insert question
+        questionIds.push questionId
 
-    Quizzes.insert quiz
+      # Replace the 'questions' property with the property 'questionIds' that
+      # references the questions ID in the MongoDB
+      delete quiz.questions
+      quiz.questionIds = questionIds
+      quiz.pointsPerQuestion = CONFIG.POINTS_PER_QUESTION
 
-
-  # print some info
-  console.log "#Questions: #{Questions.find().count()}"
-  console.log "#Sounds: #{Sounds.find().count()}"
+      Quizzes.insert quiz
 
 
 # initialize
