@@ -15,16 +15,7 @@ module.exports = (grunt) ->
     style_path: '<%= build_path %>/public/stylesheets'
 
     # helpers
-    env: ->
-      mail = "smtp://<%= config.smtp.username %>:" +
-        "<%= config.smtp.password %>@" +
-        "<%= config.smtp.host %>:" +
-        "<%= config.smtp.port %>/"
-
-      if grunt.option('production')
-        "MAIL_URL=#{mail}"
-      else
-        "MAIL_URL=#{mail} ROOT_URL=<%= config.root_url %>"
+    env: -> ""
 
     # tasks
     clean:
@@ -56,13 +47,25 @@ module.exports = (grunt) ->
         dest: '<%= test_path %>'
         filter: 'isFile'
 
+    sed:
+      game_name:
+        path: '<%= build_path %>'
+        pattern: '%GAME_NAME%'
+        replacement: '<%= config.game_name %>'
+        recursive: true
+      site_url:
+        path: '<%= build_path %>'
+        pattern: '%SITE_URL%'
+        replacement: '<%= config.site_url %>'
+        recursive: true
+
     watch:
       dist:
         files: ['<%= src_path %>/**']
-        tasks: [ 'copy:src', 'less', 'coffeelint' ]
+        tasks: [ 'copy:src', 'less', 'sed', 'coffeelint' ]
       core:
         files: ['<%= core_path %>/app/**']
-        tasks: [ 'copy:core', 'coffeelint' ]
+        tasks: [ 'copy:core', 'sed', 'coffeelint' ]
 
     coffeelint:
       build:
@@ -123,13 +126,14 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-coffeelint'
+  grunt.loadNpmTasks 'grunt-sed'
   grunt.loadNpmTasks 'grunt-bg-shell'
   grunt.loadNpmTasks 'grunt-webdriver'
 
 
   # register
   grunt.registerTask 'lint',    [ 'coffeelint' ]
-  grunt.registerTask 'build',   [ 'clean:dist', 'copy:src', 'copy:core', 'lint' ]
+  grunt.registerTask 'build',   [ 'clean:dist', 'copy:src', 'copy:core', 'sed', 'lint' ]
   grunt.registerTask 'update',  [ 'bgShell:update', 'less' ]
   grunt.registerTask 'run',     [ 'bgShell:run' ]
 
