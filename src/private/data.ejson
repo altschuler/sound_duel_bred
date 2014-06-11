@@ -1,6 +1,7 @@
 [
   {
     "name": "Hvilken kamp med Frankrig fra VM 2006 er målet fra?",
+    "description": "Hvilken kamp med Frankrig fra VM 2006 er målet fra?",
     "startDate": { "$date": 1434232800000 },
     "endDate"  : { "$date": 1434319200000 },
     "questions":
@@ -116,6 +117,119 @@
     "description": "Dagens quiz handler om værtsnationen Brasilien, der fem gange har vundet VM, og som i aften spiller åbningskamp mod Kroatien.",
     "startDate": { "$date": 1402437600000 },
     "endDate"  : { "$date": 1402610400000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM_1970_BRASILIEN-ENGLAND",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1970 Brasilien-England 1-0"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1974_BRASILIEN-ZAIRE",
+          "correctAnswer": "B",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1970 Brasilien-England 1-0"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1982_BRASILIEN-SKOTLAND",
+          "correctAnswer": "A",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1970 Brasilien-England 1-0"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1978_BRASILIEN-SVERIGE",
+          "correctAnswer": "E",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1970 Brasilien-England 1-0"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
+              }
+          ]
+        }
+      ]
+  },
+  {
+    "name": "Hvilket mål fra kampen mellem Danmark og Uruguay i 1986 er lydklippet fra? ",
+    "description": "I dagens quiz ser vi tilbage på Danmarks mest berømte VM-kamp. Desværre er Danmark ikke med denne gang, men det er Uruguay, der fik bank tilbage i 1986.",
+    "startDate": { "$date": 1402610400000 },
+    "endDate"  : { "$date": 1402696800000 },
     "questions":
       [
         {
