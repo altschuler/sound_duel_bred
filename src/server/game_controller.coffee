@@ -24,9 +24,9 @@ Meteor.methods
       currentQuestion:   0
       answers:           []
 
-  endGame: (currentGameId) ->
-    game = Games.findOne currentGameId
-    throw new Meteor.Error 'game not found' unless game?
+  endGame: (gameId) ->
+    game = Games.findOne gameId
+    throw new Meteor.Error 404, "Game not found" unless game?
 
     # calculate score
     score = 0
@@ -38,7 +38,7 @@ Meteor.methods
         score += a.points
 
     # mark game as finished
-    Games.update game._id, $set:
+    Games.update gameId, $set:
       state: 'finished'
       score: score
       correctAnswers: correctAnswers
