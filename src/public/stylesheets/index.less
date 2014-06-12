@@ -9,6 +9,12 @@
        url("../fonts/Gibson-SemiBold-webfont.svg") format("svg");
 }
 
+@font-face {
+  font-family: "gibsonRegular";
+  font-weight: normal;
+  src: url("../fonts/Gibson-Regular-webfont.svg") format("svg");
+}
+
 //import bootstrap
 @import "bootstrap.less";
 
@@ -17,6 +23,9 @@
 
 html { min-height: 100%; }
 
+body {
+  font-family: "gibsonRegular", "Arial", sans-serif;
+}
 
 h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
@@ -157,7 +166,6 @@ audio.asset, .assets {
   animation         : countdown-animation 1s ease 4;
 
   text-align: center;
-  font-family: @font-family-sans-serif;
   font-size: @countdown-normal-to;
 
   height:      @countdown-height;
@@ -191,7 +199,6 @@ audio.asset, .assets {
   animation         : countdown-animation-smaller 1s ease 1;
 
   text-align: center;
-  font-family: @font-family-sans-serif;
   font-size: @countdown-smaller-to;
 
   height:      @countdown-height;
