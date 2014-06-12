@@ -7,20 +7,13 @@ probe = Meteor.require 'node-ffprobe'
 # methods
 
 refreshDb = ->
-  console.log "Refreshing db.."
-
   # clear database
   # TODO: only for development
-  # Games.remove({})
-  # Highscores.remove({})
-  # Quizzes.remove({})
-  # Questions.remove({})
-  # Sounds.remove({})
-
-  console.log "Meteor.settings:"
-  console.log Meteor.settings
-
-  console.log "Num of quizzes: #{Quizzes.find().count()}"
+  Games.remove({})
+  Highscores.remove({})
+  Quizzes.remove({})
+  Questions.remove({})
+  Sounds.remove({})
 
   # get audiofiles from /public
   audioFiles = fs.readdirSync(CONFIG.ASSETS_DIR).filter (file) ->
@@ -32,7 +25,7 @@ refreshDb = ->
   # populate database
   for quiz in quizzes
 
-    if Quizzes.find( name: quiz.name ).count() == 0
+    if true # Quizzes.find( name: quiz.name ).count() == 0
       console.log "New quiz: #{quiz.name}"
 
       # Insert questions from quiz as separate question objects in database
@@ -74,7 +67,17 @@ refreshDb = ->
       Quizzes.insert quiz
 
 
+
+
 # initialize
 
 Meteor.startup ->
+  console.log "Starting up..."
+
+  console.log "Meteor.settings:"
+  console.log Meteor.settings
+
+  console.log "Refreshing db..."
   refreshDb()
+
+  console.log "Num of quizzes: #{Quizzes.find().count()}"
