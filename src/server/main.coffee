@@ -9,11 +9,11 @@ probe = Meteor.require 'node-ffprobe'
 refreshDb = ->
   # clear database
   # TODO: only for development
-  Games.remove({})
-  Highscores.remove({})
-  Quizzes.remove({})
-  Questions.remove({})
-  Sounds.remove({})
+  # Games.remove({})
+  # Highscores.remove({})
+  # Quizzes.remove({})
+  # Questions.remove({})
+  # Sounds.remove({})
 
   # get audiofiles from /public
   audioFiles = fs.readdirSync(CONFIG.ASSETS_DIR).filter (file) ->
@@ -25,7 +25,7 @@ refreshDb = ->
   # populate database
   for quiz in quizzes
 
-    if true # Quizzes.find( name: quiz.name ).count() == 0
+    if Quizzes.find( name: quiz.name ).count() == 0
       console.log "New quiz: #{quiz.name}"
 
       # Insert questions from quiz as separate question objects in database
