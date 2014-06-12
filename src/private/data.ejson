@@ -1,338 +1,227 @@
 [
   {
-    "name": "Hvilken kamp med Frankrig fra VM 2006 er målet fra?",
-    "description": "Hvilken kamp med Frankrig fra VM 2006 er målet fra?",
-    "startDate": { "$date": 1434232800000 },
-    "endDate"  : { "$date": 1434319200000 },
+    "name":        "Hvilken VM-kamp med Brasilien er scoringen fra?",
+    "description": "Dagens quiz handler om værtsnationen Brasilien, der fem gange har vundet VM, og som spiller åbningskampen mod Kroatien.",
+    "category":    "VM kamp Brasilien",
+    "startDate":   { "$date": 1402524000000 },
+    "endDate":     { "$date": 1402696800000 },
     "questions":
       [
         {
-          "soundfilePrefix": "QUIZ_VM_2006_FRANKRIG-SPANIEN",
+          "soundfilePrefix": "QUIZ_VM_1970_BRASILIEN-ENGLAND",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1970 Brasilien-England 1-0"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1974_BRASILIEN-ZAIRE",
+          "correctAnswer": "B",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1970 Brasilien-England 1-0"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1982_BRASILIEN-SKOTLAND",
           "correctAnswer": "A",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "Frankring-Spanien 3-1, 1/8-finale"
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
               },
               {
                   "name": "B",
-                  "text": "Frankrig-Portugal 1-0, semifinale"
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
               },
               {
                   "name": "C",
-                  "text": "Frankrig-Sydkorea 1-1, gruppekamp"
+                  "text": "VM 1970 Brasilien-England 1-0"
               },
               {
                   "name": "D",
-                  "text": "Frankrig-Brasilien 1-0, kvartfinale"
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
               },
               {
                   "name": "E",
-                  "text": "Frankrig-Togo 2-0, gruppekamp"
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
               }
           ]
         },
         {
-          "soundfilePrefix": "QUIZ_VM_2006_FRANKRIG-TOGO",
+          "soundfilePrefix": "QUIZ_VM_1978_BRASILIEN-SVERIGE",
           "correctAnswer": "E",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "Frankring-Spanien 3-1, 1/8-finale"
+                  "text": "VM 1982 Brasilien-Skotland 4-1"
               },
               {
                   "name": "B",
-                  "text": "Frankrig-Portugal 1-0, semifinale"
+                  "text": "VM 1974 Brasilien-Zaire 3-0"
               },
               {
                   "name": "C",
-                  "text": "Frankrig-Sydkorea 1-1, gruppekamp"
+                  "text": "VM 1970 Brasilien-England 1-0"
               },
               {
                   "name": "D",
-                  "text": "Frankrig-Brasilien 1-0, kvartfinale"
+                  "text": "VM 1986 Brasilien-Spanien 1-0"
               },
               {
                   "name": "E",
-                  "text": "Frankrig-Togo 2-0, gruppekamp"
+                  "text": "VM 1978 Brasilien-Sverige 1-1"
               }
           ]
-        },
+        }
+      ]
+  },
+  {
+    "name":        "Hvilket mål fra kampen mellem Danmark og Uruguay i 1986 er lydklippet fra? ",
+    "description": "I dagens quiz ser vi tilbage på Danmarks mest berømte VM-kamp. Desværre er Danmark ikke med denne gang, men det er Uruguay, der fik bank tilbage i 1986.",
+    "category":    "Danmarks VM-debu i Mexico 1986",
+    "startDate":   { "$date": 1402696800000 },
+    "endDate":     { "$date": 1402869600000 },
+    "questions":
+      [
         {
-          "soundfilePrefix": "QUIZ-VM_2006_FRANKRIG-BRASILIEN",
+          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_1-0",
           "correctAnswer": "D",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "Frankring-Spanien 3-1, 1/8-finale"
+                  "text": "2-0"
               },
               {
                   "name": "B",
-                  "text": "Frankrig-Portugal 1-0, semifinale"
+                  "text": "4-1"
               },
               {
                   "name": "C",
-                  "text": "Frankrig-Sydkorea 1-1, gruppekamp"
+                  "text": "3-1"
               },
               {
                   "name": "D",
-                  "text": "Frankrig-Brasilien 1-0, kvartfinale"
+                  "text": "1-0"
               },
               {
                   "name": "E",
-                  "text": "Frankrig-Togo 2-0, gruppekamp"
+                  "text": "6-1"
               }
           ]
         },
         {
-          "soundfilePrefix": "QUIZ-VM_2006_FRANKRIG-PORTUGAL",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Frankring-Spanien 3-1, 1/8-finale"
-              },
-              {
-                  "name": "B",
-                  "text": "Frankrig-Portugal 1-0, semifinale"
-              },
-              {
-                  "name": "C",
-                  "text": "Frankrig-Sydkorea 1-1, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "Frankrig-Brasilien 1-0, kvartfinale"
-              },
-              {
-                  "name": "E",
-                  "text": "Frankrig-Togo 2-0, gruppekamp"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name": "Hvilken VM-kamp med Brasilien er scoringen fra?",
-    "description": "Dagens quiz handler om værtsnationen Brasilien, der fem gange har vundet VM, og som i aften spiller åbningskamp mod Kroatien.",
-    "startDate": { "$date": 1402437600000 },
-    "endDate"  : { "$date": 1402610400000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM_1970_BRASILIEN-ENGLAND",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1974_BRASILIEN-ZAIRE",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1982_BRASILIEN-SKOTLAND",
+          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_2-0",
           "correctAnswer": "A",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
+                  "text": "2-0"
               },
               {
                   "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
+                  "text": "4-1"
               },
               {
                   "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
+                  "text": "3-1"
               },
               {
                   "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
+                  "text": "1-0"
               },
               {
                   "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
+                  "text": "6-1"
               }
           ]
         },
         {
-          "soundfilePrefix": "QUIZ_VM_1978_BRASILIEN-SVERIGE",
-          "correctAnswer": "E",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name": "Hvilket mål fra kampen mellem Danmark og Uruguay i 1986 er lydklippet fra? ",
-    "description": "I dagens quiz ser vi tilbage på Danmarks mest berømte VM-kamp. Desværre er Danmark ikke med denne gang, men det er Uruguay, der fik bank tilbage i 1986.",
-    "startDate": { "$date": 1402610400000 },
-    "endDate"  : { "$date": 1402696800000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM_1970_BRASILIEN-ENGLAND",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1974_BRASILIEN-ZAIRE",
+          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_4-1",
           "correctAnswer": "B",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
+                  "text": "2-0"
               },
               {
                   "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
+                  "text": "4-1"
               },
               {
                   "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
+                  "text": "3-1"
               },
               {
                   "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
+                  "text": "1-0"
               },
               {
                   "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
+                  "text": "6-1"
               }
           ]
         },
         {
-          "soundfilePrefix": "QUIZ_VM_1982_BRASILIEN-SKOTLAND",
-          "correctAnswer": "A",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1978_BRASILIEN-SVERIGE",
+          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_6-1",
           "correctAnswer": "E",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
+                  "text": "2-0"
               },
               {
                   "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
+                  "text": "4-1"
               },
               {
                   "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
+                  "text": "3-1"
               },
               {
                   "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
+                  "text": "1-0"
               },
               {
                   "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
+                  "text": "6-1"
               }
           ]
         }
