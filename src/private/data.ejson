@@ -118,7 +118,7 @@
     "description": "I dagens quiz ser vi tilbage på Danmarks mest berømte VM-kamp. Desværre er Danmark ikke med denne gang, men det er Uruguay, der fik bank tilbage i 1986.",
     "category":    "Danmarks VM-debu i Mexico 1986",
     "startDate":   { "$date": 1402696800000 },
-    "endDate":     { "$date": 1402869600000 },
+    "endDate":     { "$date": 1403042400000 },
     "questions":
       [
         {
