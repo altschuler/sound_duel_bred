@@ -118,7 +118,7 @@
     "description": "I dagens quiz ser vi tilbage på Danmarks mest berømte VM-kamp. Desværre er Danmark ikke med denne gang, men det er Uruguay, der fik bank tilbage i 1986.",
     "category":    "Danmarks VM-debu i Mexico 1986",
     "startDate":   { "$date": 1402696800000 },
-    "endDate":     { "$date": 1403042400000 },
+    "endDate":     { "$date": 1402956000000 },
     "questions":
       [
         {
@@ -222,6 +222,120 @@
               {
                   "name": "E",
                   "text": "6-1"
+              }
+          ]
+        }
+      ]
+  },
+  {
+    "name":        "Hvilken VM finale er lydklippene fra?",
+    "description": "Dagens quiz handler om nogle af de 19 finaler, der indtil nu er spillet i VMs historie.",
+    "category":    "VM finale",
+    "startDate":   { "$date": 1402956000000 },
+    "endDate":     { "$date": 1403128800000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM-Finale_2002",
+          "correctAnswer": "D",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1970 Brasilien-Italien 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Vesttyskland-Holland 2-1"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1982 Italien-Vesttyskland 3-1"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyskland 2-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 Spanien-Holland 1-0"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM-Finale_1970",
+          "correctAnswer": "A",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1970 Brasilien-Italien 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Vesttyskland-Holland 2-1"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1982 Italien-Vesttyskland 3-1"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyskland 2-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 Spanien-Holland 1-0"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM-Finale_1982",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1970 Brasilien-Italien 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Vesttyskland-Holland 2-1"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1982 Italien-Vesttyskland 3-1"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyskland 2-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 Spanien-Holland 1-0"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM-Finale_1974",
+          "correctAnswer": "B",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1970 Brasilien-Italien 4-1"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1974 Vesttyskland-Holland 2-1"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1982 Italien-Vesttyskland 3-1"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyskland 2-0"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 Spanien-Holland 1-0"
               }
           ]
         }
