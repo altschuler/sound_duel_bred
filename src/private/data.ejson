@@ -340,5 +340,119 @@
           ]
         }
       ]
+  },
+  {
+    "name":        "Hvilken VM-kamp er den engelske scoring i lydklippet fra?",
+    "description": "Dagens quiz handler om England, der vandt VM i 1966, men som siden så ofte har skuffet.",
+    "category":    "Engelske scoringer",
+    "startDate":   { "$date": 1403128800000 },
+    "endDate":     { "$date": 1403301600000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM_2006_ENGLAND-TRINIDAD_TOBAGO_2-0",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 England-USA 1-1, gruppekamp"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_2006_ENGLAND-ECUADOR_1-0",
+          "correctAnswer": "D",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 England-USA 1-1, gruppekamp"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1998_ENGLAND-ARGENTINA_2-1",
+          "correctAnswer": "A",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 England-USA 1-1, gruppekamp"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_2010_ENGLAND-USA_1-0",
+          "correctAnswer": "E",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2010 England-USA 1-1, gruppekamp"
+              }
+          ]
+        }
+      ]
   }
 ]
