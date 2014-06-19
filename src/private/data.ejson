@@ -454,5 +454,119 @@
           ]
         }
       ]
+  },
+  {
+    "name":        "Hvilken VM-kamp er episoden med Diego Maradona fra?",
+    "description": "Dagens quiz handler om argentineren Diego Maradona, der er en VM-historiens største profiler.",
+    "category":    "Episode med Diego Maradona",
+    "startDate":   { "$date": 1403301600000 },
+    "endDate":     { "$date": 1403474400000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM_1986_ARGENTINA-ENGLAND",
+          "correctAnswer": "A",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
+              },
+              {
+                  "name": "B",
+                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
+              },
+              {
+                  "name": "C",
+                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
+              },
+              {
+                  "name": "D",
+                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
+              },
+              {
+                  "name": "E",
+                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1994_ARGENTINA-GRÆKENLAND",
+          "correctAnswer": "B",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
+              },
+              {
+                  "name": "B",
+                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
+              },
+              {
+                  "name": "C",
+                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
+              },
+              {
+                  "name": "D",
+                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
+              },
+              {
+                  "name": "E",
+                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1982_ARGENTINA-BRASILIEN",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
+              },
+              {
+                  "name": "B",
+                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
+              },
+              {
+                  "name": "C",
+                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
+              },
+              {
+                  "name": "D",
+                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
+              },
+              {
+                  "name": "E",
+                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1990_ARGENTINA-BRASILIEN",
+          "correctAnswer": "E",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
+              },
+              {
+                  "name": "B",
+                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
+              },
+              {
+                  "name": "C",
+                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
+              },
+              {
+                  "name": "D",
+                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
+              },
+              {
+                  "name": "E",
+                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
+              }
+          ]
+        }
+      ]
   }
 ]
