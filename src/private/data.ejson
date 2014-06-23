@@ -568,5 +568,119 @@
           ]
         }
       ]
+  },
+  {
+    "name":        "Gæt hvilken VM-kamp den hollandske scoring i lydklippet er fra?",
+    "description": "Dagens quiz handler om Hollands VM-historie. Holland er tre gange nået frem til en VM-finale, men endnu har hollænderne aldrig vundet VM.",
+    "category":    "Hollandske scoringer",
+    "startDate":   { "$date": 1403560800000 },
+    "endDate":     { "$date": 1403820000000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM_1978_HOLLAND-ITALIEN_2-1",
+          "correctAnswer": "B",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1990_HOLLAND-EGYPTEN_1-0",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1990_HOLLAND-IRLAND_1-0",
+          "correctAnswer": "D",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1974_HOLLAND-BULGARIEN_4-0",
+          "correctAnswer": "A",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
+              }
+          ]
+        }
+      ]
   }
 ]
