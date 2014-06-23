@@ -460,7 +460,7 @@
     "description": "Dagens quiz handler om argentineren Diego Maradona, der er en VM-historiens største profiler.",
     "category":    "Episode med Diego Maradona",
     "startDate":   { "$date": 1403301600000 },
-    "endDate":     { "$date": 1403474400000 },
+    "endDate":     { "$date": 1403560800000 },
     "questions":
       [
         {
