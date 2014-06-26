@@ -682,5 +682,119 @@
           ]
         }
       ]
+  },
+  {
+    "name":        "Gæt hvilken kamp fra det VM, det italienske mål i lydklippet er fra!",
+    "description": "Dagens VM-quiz handler om Italien og en af de fire slutrunder, som italienerne har vundet. Italien strøg til tops ved VM-slutrunden i 1982 i Spanien.",
+    "category":    "Italiens mål - VM slutrunden i 1982",
+    "startDate":   { "$date": 1403820000000 },
+    "endDate":     { "$date": 1404079200000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-ARGENTINA_2-1",
+          "correctAnswer": "B",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Italien-Cameroun 1-1, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "Italien-Argentina 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "Italien-Polen 2-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "Italien-Vesttyskland 3-1, finale"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-BRASILIEN_3-2",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Italien-Cameroun 1-1, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "Italien-Argentina 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "Italien-Polen 2-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "Italien-Vesttyskland 3-1, finale"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-VESTTYSKLAND_3-1",
+          "correctAnswer": "E",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Italien-Cameroun 1-1, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "Italien-Argentina 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "Italien-Polen 2-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "Italien-Vesttyskland 3-1, finale"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-POLEN_2-0",
+          "correctAnswer": "D",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "Italien-Cameroun 1-1, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "Italien-Argentina 2-1, mellemrundekamp"
+              },
+              {
+                  "name": "C",
+                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
+              },
+              {
+                  "name": "D",
+                  "text": "Italien-Polen 2-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "Italien-Vesttyskland 3-1, finale"
+              }
+          ]
+        }
+      ]
   }
 ]
