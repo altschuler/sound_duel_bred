@@ -796,5 +796,119 @@
           ]
         }
       ]
+  },
+  {
+    "name":        "Hvilken kamp er scoringen i lydklippet fra?",
+    "description": "Dagens VM-quiz handler om en af alle tiders bedste angribere. Brasilianske Ronaldo var inden slutrunden i Brasilien den eneste med 15 mål i VM-historien.",
+    "category":    "Brasilianske Ronaldo",
+    "startDate":   { "$date": 1404079200000 },
+    "endDate":     { "$date": 1404338400000 },
+    "questions":
+      [
+        {
+          "soundfilePrefix": "QUIZ_VM_1998_BRASILIEN-CHILE_4-1",
+          "correctAnswer": "B",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_2002_BRASILIEN-TYRKIET_1-0",
+          "correctAnswer": "D",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_2006_BRASILIEN-JAPAN_4-1",
+          "correctAnswer": "E",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "QUIZ_VM_2002_BRASILIEN-BELGIEN_2-0",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
+              },
+              {
+                  "name": "B",
+                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
+              },
+              {
+                  "name": "C",
+                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
+              },
+              {
+                  "name": "D",
+                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
+              },
+              {
+                  "name": "E",
+                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
+              }
+          ]
+        }
+      ]
   }
 ]
