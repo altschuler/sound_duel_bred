@@ -37,7 +37,7 @@ module.exports = (grunt) ->
           'client/**'
           'server/**'
           'lib/**'
-          'smart.json'
+          'packages/**'
         ]
         dest: '<%= build_path %>'
       tests:

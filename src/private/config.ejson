@@ -1,5 +1,5 @@
 {
-    "ASSETS_DIR":          "../client/app/audio/"
+    "ASSETS_DIR":          "../../../../../public/audio"
   , "DATA_PATH":           "data.ejson"
 
   , "NUMBER_OF_QUESTION":  5
