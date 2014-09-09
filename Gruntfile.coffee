@@ -50,11 +50,13 @@ module.exports = (grunt) ->
     sed:
       game_name:
         path: '<%= build_path %>'
+        exclude: '<%= build_path %>/.meteor'
         pattern: '%GAME_NAME%'
         replacement: '<%= config.game_name %>'
         recursive: true
       site_url:
         path: '<%= build_path %>'
+        exclude: '<%= build_path %>/.meteor'
         pattern: '%SITE_URL%'
         replacement: '<%= config.site_url %>'
         recursive: true

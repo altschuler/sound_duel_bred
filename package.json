@@ -12,7 +12,7 @@
     "grunt-contrib-copy": "^0.5.0",
     "grunt-contrib-less": "^0.11.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-sed": "^0.1.1",
+    "grunt-sed": "git://github.com/altschuler/grunt-sed.git",
     "grunt-webdriver": "^0.4.0"
   },
   "dependencies": {
