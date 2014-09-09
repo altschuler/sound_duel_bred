@@ -3,22 +3,9 @@
 # methods
 
 Meteor.methods
-  newGame: ->
-    # Find the quiz of the day
-    now = new Date()
-    quizOfTheDay = Quizzes.find(
-      startDate: { $lt: now }
-      endDate:   { $gt: now }
-    ,
-      limit: 1
-      sort: ['endDate', 'desc'] # Grab the quiz that ends the soonest
-    ).fetch()[0]
-
-    unless quizOfTheDay?
-      throw new Meteor.Error 404, "Quiz of the day not found"
-
+  newGame: (quiz) ->
     Games.insert
-      quizId:            quizOfTheDay._id
+      quizId:            quiz._id
       pointsPerQuestion: CONFIG.POINTS_PER_QUESTION
       state:             'init'
       currentQuestion:   0
