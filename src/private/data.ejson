@@ -1,911 +1,119 @@
 [
   {
-    "name":        "Hvilken VM-kamp med Brasilien er scoringen fra?",
-    "description": "Dagens quiz handler om værtsnationen Brasilien, der fem gange har vundet VM, og som spiller åbningskampen mod Kroatien.",
-    "category":    "VM kamp Brasilien",
+    "name":        "Hvilken Dansk kamp er scoringen fra?",
+    "description": "Dagens quiz handler om nogle af de største øjeblikke i dansk fodbold historie.",
+    "category":    "Dansk Historie",
     "startDate":   { "$date": 1402524000000 },
     "endDate":     { "$date": 1402696800000 },
     "questions":
       [
         {
-          "soundfilePrefix": "QUIZ_VM_1970_BRASILIEN-ENGLAND",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1974_BRASILIEN-ZAIRE",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1982_BRASILIEN-SKOTLAND",
+          "soundfilePrefix": "EM-Finale_DK-DE",
           "correctAnswer": "A",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
+                  "text": "EM Finale Tyskland 1992"
               },
               {
                   "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
+                  "text": "VM Finale Brasil 1990"
               },
               {
                   "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
+                  "text": "EM Semi Tyskland 1983"
               },
               {
                   "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
+                  "text": "EM Semi Tyskland 2000"
               }
           ]
         },
         {
-          "soundfilePrefix": "QUIZ_VM_1978_BRASILIEN-SVERIGE",
-          "correctAnswer": "E",
+          "soundfilePrefix": "EM-Kval_DK-GB",
+          "correctAnswer": "B",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "VM 1982 Brasilien-Skotland 4-1"
+                  "text": "VM Finale Brasil 1990"
               },
               {
                   "name": "B",
-                  "text": "VM 1974 Brasilien-Zaire 3-0"
+                  "text": "EM Kval. England 1983"
               },
               {
                   "name": "C",
-                  "text": "VM 1970 Brasilien-England 1-0"
+                  "text": "EM Semi Tyskland 1983"
               },
               {
                   "name": "D",
-                  "text": "VM 1986 Brasilien-Spanien 1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1978 Brasilien-Sverige 1-1"
+                  "text": "EM Semi Tyskland 2000"
               }
           ]
-        }
-      ]
-  },
-  {
-    "name":        "Hvilket mål fra kampen mellem Danmark og Uruguay i 1986 er lydklippet fra? ",
-    "description": "I dagens quiz ser vi tilbage på Danmarks mest berømte VM-kamp. Desværre er Danmark ikke med denne gang, men det er Uruguay, der fik bank tilbage i 1986.",
-    "category":    "Danmarks VM-debu i Mexico 1986",
-    "startDate":   { "$date": 1402696800000 },
-    "endDate":     { "$date": 1402956000000 },
-    "questions":
-      [
+        },
         {
-          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_1-0",
+          "soundfilePrefix": "EM-Semi_DK-NL",
+          "correctAnswer": "C",
+          "alternatives": [
+              {
+                  "name": "A",
+                  "text": "EM Finale Tyskland 1983"
+              },
+              {
+                  "name": "B",
+                  "text": "VM Finale Brasil 1990"
+              },
+              {
+                  "name": "C",
+                  "text": "EM Semi Holland 1992"
+              },
+              {
+                  "name": "D",
+                  "text": "EM Semi Tyskland 2000"
+              }
+          ]
+        },
+        {
+          "soundfilePrefix": "OL-Semi_DK-HU",
           "correctAnswer": "D",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "2-0"
+                  "text": "EM Finale Tyskland 1983"
               },
               {
                   "name": "B",
-                  "text": "4-1"
+                  "text": "VM Finale Brasil 1990"
               },
               {
                   "name": "C",
-                  "text": "3-1"
+                  "text": "EM Semi Tyskland 1983"
               },
               {
                   "name": "D",
-                  "text": "1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "6-1"
+                  "text": "OL Semi Ungarn 1960"
               }
           ]
         },
         {
-          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_2-0",
+          "soundfilePrefix": "VM-Kvart_DK-BR",
           "correctAnswer": "A",
           "alternatives": [
               {
                   "name": "A",
-                  "text": "2-0"
+                  "text": "VM Kvart Brasilien 1998"
               },
               {
                   "name": "B",
-                  "text": "4-1"
+                  "text": "VM Finale Brasilien 1990"
               },
               {
                   "name": "C",
-                  "text": "3-1"
+                  "text": "EM Semi Tyskland 1983"
               },
               {
                   "name": "D",
-                  "text": "1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "6-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_4-1",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "2-0"
-              },
-              {
-                  "name": "B",
-                  "text": "4-1"
-              },
-              {
-                  "name": "C",
-                  "text": "3-1"
-              },
-              {
-                  "name": "D",
-                  "text": "1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "6-1"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1986_DK-URUGUAY_6-1",
-          "correctAnswer": "E",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "2-0"
-              },
-              {
-                  "name": "B",
-                  "text": "4-1"
-              },
-              {
-                  "name": "C",
-                  "text": "3-1"
-              },
-              {
-                  "name": "D",
-                  "text": "1-0"
-              },
-              {
-                  "name": "E",
-                  "text": "6-1"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name":        "Hvilken VM finale er lydklippene fra?",
-    "description": "Dagens quiz handler om nogle af de 19 finaler, der indtil nu er spillet i VMs historie.",
-    "category":    "VM finale",
-    "startDate":   { "$date": 1402956000000 },
-    "endDate":     { "$date": 1403128800000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM-Finale_2002",
-          "correctAnswer": "D",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1970 Brasilien-Italien 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Vesttyskland-Holland 2-1"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1982 Italien-Vesttyskland 3-1"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyskland 2-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 Spanien-Holland 1-0"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM-Finale_1970",
-          "correctAnswer": "A",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1970 Brasilien-Italien 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Vesttyskland-Holland 2-1"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1982 Italien-Vesttyskland 3-1"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyskland 2-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 Spanien-Holland 1-0"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM-Finale_1982",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1970 Brasilien-Italien 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Vesttyskland-Holland 2-1"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1982 Italien-Vesttyskland 3-1"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyskland 2-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 Spanien-Holland 1-0"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM-Finale_1974",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1970 Brasilien-Italien 4-1"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1974 Vesttyskland-Holland 2-1"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1982 Italien-Vesttyskland 3-1"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyskland 2-0"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 Spanien-Holland 1-0"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name":        "Hvilken VM-kamp er den engelske scoring i lydklippet fra?",
-    "description": "Dagens quiz handler om England, der vandt VM i 1966, men som siden så ofte har skuffet.",
-    "category":    "Engelske scoringer",
-    "startDate":   { "$date": 1403128800000 },
-    "endDate":     { "$date": 1403301600000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM_2006_ENGLAND-TRINIDAD_TOBAGO_2-0",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 England-USA 1-1, gruppekamp"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_2006_ENGLAND-ECUADOR_1-0",
-          "correctAnswer": "D",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 England-USA 1-1, gruppekamp"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1998_ENGLAND-ARGENTINA_2-1",
-          "correctAnswer": "A",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 England-USA 1-1, gruppekamp"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_2010_ENGLAND-USA_1-0",
-          "correctAnswer": "E",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 England-Argentina 2-2 (3-4), 1/8-finale"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 2002 England-Danmark 3-0, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2006 England-Trinidad & Tobago 2-0, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2006 England-Ecuador 1-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2010 England-USA 1-1, gruppekamp"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name":        "Hvilken VM-kamp er episoden med Diego Maradona fra?",
-    "description": "Dagens quiz handler om argentineren Diego Maradona, der er en VM-historiens største profiler.",
-    "category":    "Episode med Diego Maradona",
-    "startDate":   { "$date": 1403301600000 },
-    "endDate":     { "$date": 1403560800000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM_1986_ARGENTINA-ENGLAND",
-          "correctAnswer": "A",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
-              },
-              {
-                  "name": "B",
-                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
-              },
-              {
-                  "name": "C",
-                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
-              },
-              {
-                  "name": "D",
-                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
-              },
-              {
-                  "name": "E",
-                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1994_ARGENTINA-GRÆKENLAND",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
-              },
-              {
-                  "name": "B",
-                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
-              },
-              {
-                  "name": "C",
-                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
-              },
-              {
-                  "name": "D",
-                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
-              },
-              {
-                  "name": "E",
-                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1982_ARGENTINA-BRASILIEN",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
-              },
-              {
-                  "name": "B",
-                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
-              },
-              {
-                  "name": "C",
-                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
-              },
-              {
-                  "name": "D",
-                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
-              },
-              {
-                  "name": "E",
-                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1990_ARGENTINA-BRASILIEN",
-          "correctAnswer": "E",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Argentina-England 2-1, kvartfinale ved VM 1986"
-              },
-              {
-                  "name": "B",
-                  "text": "Argentina-Grækenland 4-0, gruppekamp ved VM 1994"
-              },
-              {
-                  "name": "C",
-                  "text": "Argentina-Brasilien 1-3, mellemrundekamp ved VM 1982"
-              },
-              {
-                  "name": "D",
-                  "text": "Argentina-Belgien 2-0, semifinale ved VM 1986"
-              },
-              {
-                  "name": "E",
-                  "text": "Argentina-Brasilien 1-0, 1/8-finale ved VM 1990"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name":        "Gæt hvilken VM-kamp den hollandske scoring i lydklippet er fra?",
-    "description": "Dagens quiz handler om Hollands VM-historie. Holland er tre gange nået frem til en VM-finale, men endnu har hollænderne aldrig vundet VM.",
-    "category":    "Hollandske scoringer",
-    "startDate":   { "$date": 1403560800000 },
-    "endDate":     { "$date": 1403820000000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM_1978_HOLLAND-ITALIEN_2-1",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1990_HOLLAND-EGYPTEN_1-0",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1990_HOLLAND-IRLAND_1-0",
-          "correctAnswer": "D",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1974_HOLLAND-BULGARIEN_4-0",
-          "correctAnswer": "A",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1974 Holland-Bulgarien 4-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1978 Holland-Italien 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 1990 Holland-Egypten 1-1, gruppekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 1994 Holland-Irland 2-0, 1/8-finale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 1998 Holland-Argentina 2-1, kvartfinale"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name":        "Gæt hvilken kamp fra det VM, det italienske mål i lydklippet er fra!",
-    "description": "Dagens VM-quiz handler om Italien og en af de fire slutrunder, som italienerne har vundet. Italien strøg til tops ved VM-slutrunden i 1982 i Spanien.",
-    "category":    "Italiens mål - VM slutrunden i 1982",
-    "startDate":   { "$date": 1403820000000 },
-    "endDate":     { "$date": 1404079200000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-ARGENTINA_2-1",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Italien-Cameroun 1-1, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "Italien-Argentina 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "Italien-Polen 2-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "Italien-Vesttyskland 3-1, finale"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-BRASILIEN_3-2",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Italien-Cameroun 1-1, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "Italien-Argentina 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "Italien-Polen 2-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "Italien-Vesttyskland 3-1, finale"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-VESTTYSKLAND_3-1",
-          "correctAnswer": "E",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Italien-Cameroun 1-1, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "Italien-Argentina 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "Italien-Polen 2-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "Italien-Vesttyskland 3-1, finale"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_1982_ITALIEN-POLEN_2-0",
-          "correctAnswer": "D",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "Italien-Cameroun 1-1, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "Italien-Argentina 2-1, mellemrundekamp"
-              },
-              {
-                  "name": "C",
-                  "text": "Italien-Brasilien 3-2, mellemrundekamp"
-              },
-              {
-                  "name": "D",
-                  "text": "Italien-Polen 2-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "Italien-Vesttyskland 3-1, finale"
-              }
-          ]
-        }
-      ]
-  },
-  {
-    "name":        "Hvilken kamp er scoringen i lydklippet fra?",
-    "description": "Dagens VM-quiz handler om en af alle tiders bedste angribere. Brasilianske Ronaldo var inden slutrunden i Brasilien den eneste med 15 mål i VM-historien.",
-    "category":    "Brasilianske Ronaldo",
-    "startDate":   { "$date": 1404079200000 },
-    "endDate":     { "$date": 1404338400000 },
-    "questions":
-      [
-        {
-          "soundfilePrefix": "QUIZ_VM_1998_BRASILIEN-CHILE_4-1",
-          "correctAnswer": "B",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_2002_BRASILIEN-TYRKIET_1-0",
-          "correctAnswer": "D",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_2006_BRASILIEN-JAPAN_4-1",
-          "correctAnswer": "E",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
-              }
-          ]
-        },
-        {
-          "soundfilePrefix": "QUIZ_VM_2002_BRASILIEN-BELGIEN_2-0",
-          "correctAnswer": "C",
-          "alternatives": [
-              {
-                  "name": "A",
-                  "text": "VM 1998 Brasilien-Marokko 3-0, gruppekamp"
-              },
-              {
-                  "name": "B",
-                  "text": "VM 1998 Brasilien-Chile 4-1, 1/8-finale"
-              },
-              {
-                  "name": "C",
-                  "text": "VM 2002 Brasilien-Belgien 2-0, 1/8-finale"
-              },
-              {
-                  "name": "D",
-                  "text": "VM 2002 Brasilien-Tyrkiet 1-0, semifinale"
-              },
-              {
-                  "name": "E",
-                  "text": "VM 2006 Brasilien-Japan 4-1, gruppekamp"
+                  "text": "EM Semi Tyskland 2000"
               }
           ]
         }
